@@ -1,0 +1,85 @@
+*{
+    background-color: #fafafa;
+    font-family: 'Courier New', Courier, monospace;
+}
+#contenedorInicial{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+#contenedorInicialInput{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+input{
+    width: 80%;
+    padding: 0.5em 1em;
+    margin: 1px 0;
+    box-sizing: border-box;
+    -webkit-box-shadow: -1px 6px 25px -5px rgba(240,240,240,0.45);
+    -moz-box-shadow: -1px 6px 25px -5px rgba(240,240,240,0.45);
+    box-shadow: -1px 6px 25px -5px rgba(240,240,240,0.45);
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+#inputcoincidencia{
+    margin: 0 auto;
+}
+#infoPais{
+    width: 40%;
+    height: 700px;
+    margin: 0 auto;
+}
+#contenidoInfoPais{
+    margin-top: 2em;
+    display: grid;
+    justify-items: center;
+    margin: 0 auto;
+    margin-top: 2em;
+    width: auto;
+    justify-items: start;
+    border: 1px solid black;
+}
+#contenedorInputCoindencia{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 100%;
+    margin: auto 0;
+}
+h2{
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+#listaResultados{
+    width: 70%;
+    margin: 0 auto;
+}
+#contenedorInputListaResultados{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+.demasiadascoincidencias{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+.buscadorDemasiadasCoincidencias{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
